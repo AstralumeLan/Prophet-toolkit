@@ -5,16 +5,7 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-### Added
-
-- Community issue forms, pull request checklist, conduct and security policies.
-- Argparse-derived `tools` manifest and `--describe` alias, generated output schemas,
-  and a stdlib MCP stdio server with `bin/prophet-mcp` entry point.
-- Agent documentation, llms.txt and generated full documentation, and social preview.
-
-### Changed
-
-- Setup without uv bootstraps pip and upgrades pip, setuptools, and wheel before installing dependencies.
+_Nothing yet._
 
 ## [0.1.0] — 2026-10-31
 
@@ -32,6 +23,11 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
   restricted course material excluded by default and enabled only by opt-in.
 - Scoped cross-checks and offline regression tests using fictional and public references.
 - Pinned dependency setup and third-party licence and attribution documentation.
+- Community issue forms, pull request checklist, conduct and security policies.
+- Argparse-derived `tools` manifest and `--describe` alias, generated output schemas,
+  and a stdlib MCP stdio server with `bin/prophet-mcp` entry point.
+- Agent documentation, llms.txt and generated full documentation, and social preview.
+- Setup falls back to pip (bootstrapped and upgraded) when uv is unavailable.
 
 Agreement between engines sharing libraries is not independent validation.
 Outputs support cultural research and entertainment, not professional advice.
