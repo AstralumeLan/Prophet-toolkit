@@ -1,0 +1,117 @@
+{
+  "bazi": {
+    "top": [
+      "candidates",
+      "engine",
+      "input",
+      "invariants",
+      "person",
+      "rules_ext",
+      "shensha_full_invariants",
+      "warnings"
+    ],
+    "engine": [
+      "name",
+      "rules",
+      "version"
+    ],
+    "rules": [
+      "calendar",
+      "element_count",
+      "forecast_year",
+      "month_boundary",
+      "operation",
+      "sect",
+      "shensha_source",
+      "time_standard",
+      "year_boundary",
+      "yun_sect"
+    ],
+    "candidate": [
+      "calculation_time",
+      "candidate",
+      "clock_hour_pillar",
+      "clock_time",
+      "day_master",
+      "day_pillar",
+      "dayun",
+      "five_elements",
+      "hidden_stem_elements",
+      "hour_pillar",
+      "hour_pillars_differ",
+      "minggong",
+      "month_pillar",
+      "nearby_solar_terms",
+      "pillars",
+      "shensha",
+      "shensha_full",
+      "taiyuan",
+      "true_solar",
+      "true_solar_hour_pillar",
+      "warnings",
+      "year_pillar"
+    ],
+    "shensha": [
+      "hit",
+      "name",
+      "pillar",
+      "trigger"
+    ]
+  },
+  "ziwei": {
+    "top": [
+      "annual",
+      "candidate",
+      "comparison",
+      "daxian",
+      "engine",
+      "input",
+      "iztro",
+      "renhuai",
+      "sihua",
+      "timeIndex",
+      "warnings"
+    ],
+    "engine": [
+      "name",
+      "rules",
+      "version"
+    ],
+    "rules": [
+      "annual_reference",
+      "brightness_school",
+      "four_pillars",
+      "late_zi",
+      "leap_month",
+      "time_standard",
+      "yearDivide"
+    ]
+  },
+  "western": {
+    "top": [
+      "angles",
+      "aspects",
+      "engine",
+      "houses",
+      "jd_ut",
+      "planets",
+      "utc",
+      "warnings"
+    ],
+    "engine": [
+      "name",
+      "rules",
+      "rules_ext",
+      "version"
+    ],
+    "rules": [
+      "ephemeris",
+      "house_assignment",
+      "house_system",
+      "orbs",
+      "requested_house_system",
+      "time_scale",
+      "zodiac"
+    ]
+  }
+}

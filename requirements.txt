@@ -1,0 +1,3 @@
+lunar-python==1.4.8
+pyswisseph==2.10.3.2
+astronomy-engine==2.1.19

@@ -1,0 +1,2 @@
+Derived from ShousenZHANG/chinese-fortune, MIT, commit 81a980a5707505468a10f596f1f19c9088457a9e.
+Selected constants and pure functions; imports adapted to package-relative imports. No upstream entropy/network code included.

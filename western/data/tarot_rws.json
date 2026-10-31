@@ -1,0 +1,1376 @@
+{
+  "source": "A. E. Waite, The Pictorial Key to the Tarot (1910), Part III; original concise English keyword paraphrases. Public-domain source, no vendor assets.",
+  "cards": [
+    {
+      "id": "major-00",
+      "name_en": "The Fool",
+      "name_zh": "愚人",
+      "arcana": "major",
+      "number": 0,
+      "upright": [
+        "folly",
+        "extravagance",
+        "wandering"
+      ],
+      "reversed": [
+        "negligence",
+        "absence",
+        "carelessness"
+      ]
+    },
+    {
+      "id": "major-01",
+      "name_en": "The Magician",
+      "name_zh": "魔术师",
+      "arcana": "major",
+      "number": 1,
+      "upright": [
+        "skill",
+        "diplomacy",
+        "will"
+      ],
+      "reversed": [
+        "insecurity",
+        "intrigue",
+        "weakness"
+      ]
+    },
+    {
+      "id": "major-02",
+      "name_en": "The High Priestess",
+      "name_zh": "女祭司",
+      "arcana": "major",
+      "number": 2,
+      "upright": [
+        "secrets",
+        "mystery",
+        "wisdom"
+      ],
+      "reversed": [
+        "conceit",
+        "superficial knowledge",
+        "passion"
+      ]
+    },
+    {
+      "id": "major-03",
+      "name_en": "The Empress",
+      "name_zh": "皇后",
+      "arcana": "major",
+      "number": 3,
+      "upright": [
+        "fruitfulness",
+        "action",
+        "initiative"
+      ],
+      "reversed": [
+        "vacillation",
+        "difficulty",
+        "delayed action"
+      ]
+    },
+    {
+      "id": "major-04",
+      "name_en": "The Emperor",
+      "name_zh": "皇帝",
+      "arcana": "major",
+      "number": 4,
+      "upright": [
+        "stability",
+        "protection",
+        "authority"
+      ],
+      "reversed": [
+        "obstruction",
+        "immaturity",
+        "lost authority"
+      ]
+    },
+    {
+      "id": "major-05",
+      "name_en": "The Hierophant",
+      "name_zh": "教皇",
+      "arcana": "major",
+      "number": 5,
+      "upright": [
+        "alliance",
+        "tradition",
+        "counsel"
+      ],
+      "reversed": [
+        "unconventional alliance",
+        "weakness",
+        "concord"
+      ]
+    },
+    {
+      "id": "major-06",
+      "name_en": "The Lovers",
+      "name_zh": "恋人",
+      "arcana": "major",
+      "number": 6,
+      "upright": [
+        "attraction",
+        "love",
+        "beauty"
+      ],
+      "reversed": [
+        "failure",
+        "contrary forces",
+        "frustrated union"
+      ]
+    },
+    {
+      "id": "major-07",
+      "name_en": "The Chariot",
+      "name_zh": "战车",
+      "arcana": "major",
+      "number": 7,
+      "upright": [
+        "triumph",
+        "resolve",
+        "conflict"
+      ],
+      "reversed": [
+        "quarrel",
+        "dispute",
+        "defeat"
+      ]
+    },
+    {
+      "id": "major-08",
+      "name_en": "Strength",
+      "name_zh": "力量",
+      "arcana": "major",
+      "number": 8,
+      "upright": [
+        "courage",
+        "energy",
+        "magnanimity"
+      ],
+      "reversed": [
+        "abuse of power",
+        "weakness",
+        "discord"
+      ]
+    },
+    {
+      "id": "major-09",
+      "name_en": "The Hermit",
+      "name_zh": "隐者",
+      "arcana": "major",
+      "number": 9,
+      "upright": [
+        "prudence",
+        "circumspection",
+        "guidance"
+      ],
+      "reversed": [
+        "concealment",
+        "fear",
+        "unreasonable caution"
+      ]
+    },
+    {
+      "id": "major-10",
+      "name_en": "Wheel of Fortune",
+      "name_zh": "命运之轮",
+      "arcana": "major",
+      "number": 10,
+      "upright": [
+        "fortune",
+        "success",
+        "elevation"
+      ],
+      "reversed": [
+        "excess",
+        "instability",
+        "interrupted fortune"
+      ]
+    },
+    {
+      "id": "major-11",
+      "name_en": "Justice",
+      "name_zh": "正义",
+      "arcana": "major",
+      "number": 11,
+      "upright": [
+        "equity",
+        "rightness",
+        "accountability"
+      ],
+      "reversed": [
+        "bias",
+        "severity",
+        "legal complications"
+      ]
+    },
+    {
+      "id": "major-12",
+      "name_en": "The Hanged Man",
+      "name_zh": "倒吊人",
+      "arcana": "major",
+      "number": 12,
+      "upright": [
+        "discernment",
+        "sacrifice",
+        "trials"
+      ],
+      "reversed": [
+        "self-interest",
+        "conformity",
+        "futile sacrifice"
+      ]
+    },
+    {
+      "id": "major-13",
+      "name_en": "Death",
+      "name_zh": "死神",
+      "arcana": "major",
+      "number": 13,
+      "upright": [
+        "ending",
+        "mortality",
+        "destruction"
+      ],
+      "reversed": [
+        "inertia",
+        "lethargy",
+        "stagnation"
+      ]
+    },
+    {
+      "id": "major-14",
+      "name_en": "Temperance",
+      "name_zh": "节制",
+      "arcana": "major",
+      "number": 14,
+      "upright": [
+        "moderation",
+        "management",
+        "accommodation"
+      ],
+      "reversed": [
+        "disunion",
+        "competing interests",
+        "imbalance"
+      ]
+    },
+    {
+      "id": "major-15",
+      "name_en": "The Devil",
+      "name_zh": "恶魔",
+      "arcana": "major",
+      "number": 15,
+      "upright": [
+        "force",
+        "bondage",
+        "fatality"
+      ],
+      "reversed": [
+        "weakness",
+        "pettiness",
+        "blindness"
+      ]
+    },
+    {
+      "id": "major-16",
+      "name_en": "The Tower",
+      "name_zh": "高塔",
+      "arcana": "major",
+      "number": 16,
+      "upright": [
+        "adversity",
+        "calamity",
+        "ruin"
+      ],
+      "reversed": [
+        "oppression",
+        "confinement",
+        "lesser upheaval"
+      ]
+    },
+    {
+      "id": "major-17",
+      "name_en": "The Star",
+      "name_zh": "星星",
+      "arcana": "major",
+      "number": 17,
+      "upright": [
+        "hope",
+        "bright prospects",
+        "renewal"
+      ],
+      "reversed": [
+        "arrogance",
+        "impotence",
+        "frustrated hope"
+      ]
+    },
+    {
+      "id": "major-18",
+      "name_en": "The Moon",
+      "name_zh": "月亮",
+      "arcana": "major",
+      "number": 18,
+      "upright": [
+        "hidden enemies",
+        "deception",
+        "darkness"
+      ],
+      "reversed": [
+        "instability",
+        "silence",
+        "lesser deception"
+      ]
+    },
+    {
+      "id": "major-19",
+      "name_en": "The Sun",
+      "name_zh": "太阳",
+      "arcana": "major",
+      "number": 19,
+      "upright": [
+        "happiness",
+        "contentment",
+        "fortunate union"
+      ],
+      "reversed": [
+        "diminished happiness",
+        "delayed success"
+      ]
+    },
+    {
+      "id": "major-20",
+      "name_en": "Judgement",
+      "name_zh": "审判",
+      "arcana": "major",
+      "number": 20,
+      "upright": [
+        "renewal",
+        "change",
+        "outcome"
+      ],
+      "reversed": [
+        "weakness",
+        "indecision",
+        "delayed judgement"
+      ]
+    },
+    {
+      "id": "major-21",
+      "name_en": "The World",
+      "name_zh": "世界",
+      "arcana": "major",
+      "number": 21,
+      "upright": [
+        "success",
+        "journey",
+        "completion"
+      ],
+      "reversed": [
+        "inertia",
+        "permanence",
+        "stagnation"
+      ]
+    },
+    {
+      "id": "wands-01",
+      "name_en": "Ace of Wands",
+      "name_zh": "权杖王牌",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Ace",
+      "upright": [
+        "beginning",
+        "creation",
+        "enterprise"
+      ],
+      "reversed": [
+        "decline",
+        "clouded joy"
+      ]
+    },
+    {
+      "id": "wands-02",
+      "name_en": "Two of Wands",
+      "name_zh": "权杖二",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Two",
+      "upright": [
+        "wealth",
+        "dominion",
+        "planning"
+      ],
+      "reversed": [
+        "surprise",
+        "trouble",
+        "fear"
+      ]
+    },
+    {
+      "id": "wands-03",
+      "name_en": "Three of Wands",
+      "name_zh": "权杖三",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Three",
+      "upright": [
+        "enterprise",
+        "commerce",
+        "discovery"
+      ],
+      "reversed": [
+        "end of adversity",
+        "suspended effort"
+      ]
+    },
+    {
+      "id": "wands-04",
+      "name_en": "Four of Wands",
+      "name_zh": "权杖四",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Four",
+      "upright": [
+        "harmony",
+        "refuge",
+        "prosperity"
+      ],
+      "reversed": [
+        "unchanged harmony",
+        "prosperity"
+      ]
+    },
+    {
+      "id": "wands-05",
+      "name_en": "Five of Wands",
+      "name_zh": "权杖五",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Five",
+      "upright": [
+        "competition",
+        "struggle",
+        "contest"
+      ],
+      "reversed": [
+        "dispute",
+        "litigation",
+        "contradiction"
+      ]
+    },
+    {
+      "id": "wands-06",
+      "name_en": "Six of Wands",
+      "name_zh": "权杖六",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Six",
+      "upright": [
+        "victory",
+        "good news",
+        "expectation"
+      ],
+      "reversed": [
+        "fear",
+        "disloyalty",
+        "delay"
+      ]
+    },
+    {
+      "id": "wands-07",
+      "name_en": "Seven of Wands",
+      "name_zh": "权杖七",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Seven",
+      "upright": [
+        "valour",
+        "negotiation",
+        "competition"
+      ],
+      "reversed": [
+        "anxiety",
+        "indecision",
+        "embarrassment"
+      ]
+    },
+    {
+      "id": "wands-08",
+      "name_en": "Eight of Wands",
+      "name_zh": "权杖八",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Eight",
+      "upright": [
+        "speed",
+        "movement",
+        "messages"
+      ],
+      "reversed": [
+        "jealousy",
+        "disputes",
+        "delay"
+      ]
+    },
+    {
+      "id": "wands-09",
+      "name_en": "Nine of Wands",
+      "name_zh": "权杖九",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Nine",
+      "upright": [
+        "strength",
+        "opposition",
+        "endurance"
+      ],
+      "reversed": [
+        "obstacles",
+        "adversity",
+        "delay"
+      ]
+    },
+    {
+      "id": "wands-10",
+      "name_en": "Ten of Wands",
+      "name_zh": "权杖十",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Ten",
+      "upright": [
+        "oppression",
+        "burden",
+        "responsibility"
+      ],
+      "reversed": [
+        "contradiction",
+        "intrigue",
+        "difficulty"
+      ]
+    },
+    {
+      "id": "wands-11",
+      "name_en": "Page of Wands",
+      "name_zh": "权杖侍从",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Page",
+      "upright": [
+        "messenger",
+        "loyalty",
+        "news"
+      ],
+      "reversed": [
+        "indecision",
+        "instability",
+        "bad news"
+      ]
+    },
+    {
+      "id": "wands-12",
+      "name_en": "Knight of Wands",
+      "name_zh": "权杖骑士",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Knight",
+      "upright": [
+        "departure",
+        "journey",
+        "change"
+      ],
+      "reversed": [
+        "interruption",
+        "rupture",
+        "discord"
+      ]
+    },
+    {
+      "id": "wands-13",
+      "name_en": "Queen of Wands",
+      "name_zh": "权杖王后",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "Queen",
+      "upright": [
+        "warmth",
+        "honour",
+        "generosity"
+      ],
+      "reversed": [
+        "jealousy",
+        "opposition",
+        "deceit"
+      ]
+    },
+    {
+      "id": "wands-14",
+      "name_en": "King of Wands",
+      "name_zh": "权杖国王",
+      "arcana": "minor",
+      "suit": "Wands",
+      "rank": "King",
+      "upright": [
+        "honesty",
+        "conscience",
+        "enterprise"
+      ],
+      "reversed": [
+        "severity",
+        "austerity",
+        "tolerance"
+      ]
+    },
+    {
+      "id": "cups-01",
+      "name_en": "Ace of Cups",
+      "name_zh": "圣杯王牌",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Ace",
+      "upright": [
+        "contentment",
+        "abundance",
+        "nourishment"
+      ],
+      "reversed": [
+        "instability",
+        "false heart",
+        "change"
+      ]
+    },
+    {
+      "id": "cups-02",
+      "name_en": "Two of Cups",
+      "name_zh": "圣杯二",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Two",
+      "upright": [
+        "love",
+        "friendship",
+        "affinity"
+      ],
+      "reversed": [
+        "misunderstanding",
+        "false love",
+        "folly"
+      ]
+    },
+    {
+      "id": "cups-03",
+      "name_en": "Three of Cups",
+      "name_zh": "圣杯三",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Three",
+      "upright": [
+        "merriment",
+        "fulfilment",
+        "healing"
+      ],
+      "reversed": [
+        "excess",
+        "conclusion",
+        "dispatch"
+      ]
+    },
+    {
+      "id": "cups-04",
+      "name_en": "Four of Cups",
+      "name_zh": "圣杯四",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Four",
+      "upright": [
+        "weariness",
+        "aversion",
+        "dissatisfaction"
+      ],
+      "reversed": [
+        "novelty",
+        "new relations",
+        "instruction"
+      ]
+    },
+    {
+      "id": "cups-05",
+      "name_en": "Five of Cups",
+      "name_zh": "圣杯五",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Five",
+      "upright": [
+        "loss",
+        "remaining hope",
+        "inheritance"
+      ],
+      "reversed": [
+        "return",
+        "alliance",
+        "false projects"
+      ]
+    },
+    {
+      "id": "cups-06",
+      "name_en": "Six of Cups",
+      "name_zh": "圣杯六",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Six",
+      "upright": [
+        "memories",
+        "childhood",
+        "past joys"
+      ],
+      "reversed": [
+        "future",
+        "renewal",
+        "approaching events"
+      ]
+    },
+    {
+      "id": "cups-07",
+      "name_en": "Seven of Cups",
+      "name_zh": "圣杯七",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Seven",
+      "upright": [
+        "imagination",
+        "fantasy",
+        "sentiment"
+      ],
+      "reversed": [
+        "resolve",
+        "desire",
+        "project"
+      ]
+    },
+    {
+      "id": "cups-08",
+      "name_en": "Eight of Cups",
+      "name_zh": "圣杯八",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Eight",
+      "upright": [
+        "departure",
+        "decline",
+        "abandoned pursuit"
+      ],
+      "reversed": [
+        "joy",
+        "happiness",
+        "feasting"
+      ]
+    },
+    {
+      "id": "cups-09",
+      "name_en": "Nine of Cups",
+      "name_zh": "圣杯九",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Nine",
+      "upright": [
+        "contentment",
+        "success",
+        "satisfaction"
+      ],
+      "reversed": [
+        "imperfection",
+        "mistakes",
+        "misplaced confidence"
+      ]
+    },
+    {
+      "id": "cups-10",
+      "name_en": "Ten of Cups",
+      "name_zh": "圣杯十",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Ten",
+      "upright": [
+        "contentment",
+        "friendship",
+        "domestic joy"
+      ],
+      "reversed": [
+        "false harmony",
+        "indignation",
+        "violence"
+      ]
+    },
+    {
+      "id": "cups-11",
+      "name_en": "Page of Cups",
+      "name_zh": "圣杯侍从",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Page",
+      "upright": [
+        "service",
+        "study",
+        "reflection"
+      ],
+      "reversed": [
+        "attachment",
+        "seduction",
+        "deception"
+      ]
+    },
+    {
+      "id": "cups-12",
+      "name_en": "Knight of Cups",
+      "name_zh": "圣杯骑士",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Knight",
+      "upright": [
+        "arrival",
+        "invitation",
+        "proposition"
+      ],
+      "reversed": [
+        "fraud",
+        "artifice",
+        "duplicity"
+      ]
+    },
+    {
+      "id": "cups-13",
+      "name_en": "Queen of Cups",
+      "name_zh": "圣杯王后",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "Queen",
+      "upright": [
+        "devotion",
+        "intelligence",
+        "intuition"
+      ],
+      "reversed": [
+        "unreliability",
+        "vice",
+        "dishonour"
+      ]
+    },
+    {
+      "id": "cups-14",
+      "name_en": "King of Cups",
+      "name_zh": "圣杯国王",
+      "arcana": "minor",
+      "suit": "Cups",
+      "rank": "King",
+      "upright": [
+        "responsibility",
+        "equity",
+        "creativity"
+      ],
+      "reversed": [
+        "dishonesty",
+        "scandal",
+        "injustice"
+      ]
+    },
+    {
+      "id": "swords-01",
+      "name_en": "Ace of Swords",
+      "name_zh": "宝剑王牌",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Ace",
+      "upright": [
+        "triumph",
+        "force",
+        "conquest"
+      ],
+      "reversed": [
+        "destructive force",
+        "excess"
+      ]
+    },
+    {
+      "id": "swords-02",
+      "name_en": "Two of Swords",
+      "name_zh": "宝剑二",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Two",
+      "upright": [
+        "balance",
+        "courage",
+        "concord"
+      ],
+      "reversed": [
+        "falsehood",
+        "duplicity",
+        "disloyalty"
+      ]
+    },
+    {
+      "id": "swords-03",
+      "name_en": "Three of Swords",
+      "name_zh": "宝剑三",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Three",
+      "upright": [
+        "separation",
+        "rupture",
+        "sorrow"
+      ],
+      "reversed": [
+        "confusion",
+        "disorder",
+        "alienation"
+      ]
+    },
+    {
+      "id": "swords-04",
+      "name_en": "Four of Swords",
+      "name_zh": "宝剑四",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Four",
+      "upright": [
+        "retreat",
+        "solitude",
+        "repose"
+      ],
+      "reversed": [
+        "precaution",
+        "economy",
+        "circumspection"
+      ]
+    },
+    {
+      "id": "swords-05",
+      "name_en": "Five of Swords",
+      "name_zh": "宝剑五",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Five",
+      "upright": [
+        "loss",
+        "dishonour",
+        "destruction"
+      ],
+      "reversed": [
+        "mourning",
+        "burial",
+        "loss"
+      ]
+    },
+    {
+      "id": "swords-06",
+      "name_en": "Six of Swords",
+      "name_zh": "宝剑六",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Six",
+      "upright": [
+        "journey",
+        "passage",
+        "expedient"
+      ],
+      "reversed": [
+        "declaration",
+        "confession",
+        "publicity"
+      ]
+    },
+    {
+      "id": "swords-07",
+      "name_en": "Seven of Swords",
+      "name_zh": "宝剑七",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Seven",
+      "upright": [
+        "design",
+        "attempt",
+        "uncertain plan"
+      ],
+      "reversed": [
+        "counsel",
+        "slander",
+        "disputed advice"
+      ]
+    },
+    {
+      "id": "swords-08",
+      "name_en": "Eight of Swords",
+      "name_zh": "宝剑八",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Eight",
+      "upright": [
+        "restriction",
+        "crisis",
+        "censure"
+      ],
+      "reversed": [
+        "disquiet",
+        "difficulty",
+        "opposition"
+      ]
+    },
+    {
+      "id": "swords-09",
+      "name_en": "Nine of Swords",
+      "name_zh": "宝剑九",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Nine",
+      "upright": [
+        "desolation",
+        "disappointment",
+        "despair"
+      ],
+      "reversed": [
+        "suspicion",
+        "doubt",
+        "shame"
+      ]
+    },
+    {
+      "id": "swords-10",
+      "name_en": "Ten of Swords",
+      "name_zh": "宝剑十",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Ten",
+      "upright": [
+        "pain",
+        "sadness",
+        "desolation"
+      ],
+      "reversed": [
+        "temporary advantage",
+        "passing success"
+      ]
+    },
+    {
+      "id": "swords-11",
+      "name_en": "Page of Swords",
+      "name_zh": "宝剑侍从",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Page",
+      "upright": [
+        "vigilance",
+        "examination",
+        "oversight"
+      ],
+      "reversed": [
+        "unpreparedness",
+        "unforeseen events"
+      ]
+    },
+    {
+      "id": "swords-12",
+      "name_en": "Knight of Swords",
+      "name_zh": "宝剑骑士",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Knight",
+      "upright": [
+        "skill",
+        "bravery",
+        "defence"
+      ],
+      "reversed": [
+        "imprudence",
+        "extravagance",
+        "incapacity"
+      ]
+    },
+    {
+      "id": "swords-13",
+      "name_en": "Queen of Swords",
+      "name_zh": "宝剑王后",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "Queen",
+      "upright": [
+        "privation",
+        "separation",
+        "mourning"
+      ],
+      "reversed": [
+        "malice",
+        "deceit",
+        "severity"
+      ]
+    },
+    {
+      "id": "swords-14",
+      "name_en": "King of Swords",
+      "name_zh": "宝剑国王",
+      "arcana": "minor",
+      "suit": "Swords",
+      "rank": "King",
+      "upright": [
+        "judgement",
+        "command",
+        "authority"
+      ],
+      "reversed": [
+        "cruelty",
+        "perversity",
+        "bad intention"
+      ]
+    },
+    {
+      "id": "pentacles-01",
+      "name_en": "Ace of Pentacles",
+      "name_zh": "星币王牌",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Ace",
+      "upright": [
+        "prosperity",
+        "contentment",
+        "gold"
+      ],
+      "reversed": [
+        "misused wealth",
+        "adverse riches"
+      ]
+    },
+    {
+      "id": "pentacles-02",
+      "name_en": "Two of Pentacles",
+      "name_zh": "星币二",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Two",
+      "upright": [
+        "recreation",
+        "messages",
+        "agitation"
+      ],
+      "reversed": [
+        "forced enjoyment",
+        "simulated happiness"
+      ]
+    },
+    {
+      "id": "pentacles-03",
+      "name_en": "Three of Pentacles",
+      "name_zh": "星币三",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Three",
+      "upright": [
+        "craft",
+        "skilled labour",
+        "renown"
+      ],
+      "reversed": [
+        "mediocrity",
+        "weakness",
+        "poor work"
+      ]
+    },
+    {
+      "id": "pentacles-04",
+      "name_en": "Four of Pentacles",
+      "name_zh": "星币四",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Four",
+      "upright": [
+        "possessions",
+        "security",
+        "inheritance"
+      ],
+      "reversed": [
+        "suspense",
+        "delay",
+        "opposition"
+      ]
+    },
+    {
+      "id": "pentacles-05",
+      "name_en": "Five of Pentacles",
+      "name_zh": "星币五",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Five",
+      "upright": [
+        "material trouble",
+        "destitution"
+      ],
+      "reversed": [
+        "disorder",
+        "discord",
+        "ruin"
+      ]
+    },
+    {
+      "id": "pentacles-06",
+      "name_en": "Six of Pentacles",
+      "name_zh": "星币六",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Six",
+      "upright": [
+        "gifts",
+        "gratification",
+        "generosity"
+      ],
+      "reversed": [
+        "envy",
+        "desire",
+        "jealousy"
+      ]
+    },
+    {
+      "id": "pentacles-07",
+      "name_en": "Seven of Pentacles",
+      "name_zh": "星币七",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Seven",
+      "upright": [
+        "money",
+        "business",
+        "cultivation"
+      ],
+      "reversed": [
+        "anxiety about money",
+        "impatience"
+      ]
+    },
+    {
+      "id": "pentacles-08",
+      "name_en": "Eight of Pentacles",
+      "name_zh": "星币八",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Eight",
+      "upright": [
+        "work",
+        "craftsmanship",
+        "commission"
+      ],
+      "reversed": [
+        "vanity",
+        "empty ambition",
+        "usury"
+      ]
+    },
+    {
+      "id": "pentacles-09",
+      "name_en": "Nine of Pentacles",
+      "name_zh": "星币九",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Nine",
+      "upright": [
+        "prudence",
+        "safety",
+        "accomplishment"
+      ],
+      "reversed": [
+        "deception",
+        "bad faith",
+        "void project"
+      ]
+    },
+    {
+      "id": "pentacles-10",
+      "name_en": "Ten of Pentacles",
+      "name_zh": "星币十",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Ten",
+      "upright": [
+        "wealth",
+        "family",
+        "inheritance"
+      ],
+      "reversed": [
+        "loss",
+        "chance",
+        "family difficulty"
+      ]
+    },
+    {
+      "id": "pentacles-11",
+      "name_en": "Page of Pentacles",
+      "name_zh": "星币侍从",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Page",
+      "upright": [
+        "study",
+        "reflection",
+        "practical news"
+      ],
+      "reversed": [
+        "prodigality",
+        "dissipation",
+        "unfavourable news"
+      ]
+    },
+    {
+      "id": "pentacles-12",
+      "name_en": "Knight of Pentacles",
+      "name_zh": "星币骑士",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Knight",
+      "upright": [
+        "utility",
+        "service",
+        "responsibility"
+      ],
+      "reversed": [
+        "inertia",
+        "discouragement",
+        "carelessness"
+      ]
+    },
+    {
+      "id": "pentacles-13",
+      "name_en": "Queen of Pentacles",
+      "name_zh": "星币王后",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "Queen",
+      "upright": [
+        "security",
+        "generosity",
+        "liberty"
+      ],
+      "reversed": [
+        "fear",
+        "suspicion",
+        "mistrust"
+      ]
+    },
+    {
+      "id": "pentacles-14",
+      "name_en": "King of Pentacles",
+      "name_zh": "星币国王",
+      "arcana": "minor",
+      "suit": "Pentacles",
+      "rank": "King",
+      "upright": [
+        "business aptitude",
+        "intelligence",
+        "success"
+      ],
+      "reversed": [
+        "corruption",
+        "vice",
+        "weakness"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+corpus/index.sqlite
+vendor/
+core/people.json
+core/cache/
+core/draws.jsonl
+western/data/*.se1
+corpus/data/*.jsonl
+!corpus/data/nakshatra.jsonl
+!corpus/data/parashara.jsonl
+corpus/data/tianji-LICENSE.md

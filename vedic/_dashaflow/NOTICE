@@ -1,0 +1,4 @@
+Tables adapted from dashaflow, Adarsh J, MIT.
+https://github.com/adarshj322/dashaflow
+Commit f8f8ead76e56b9048f80adbbbff282c007068cf7
+Only constants and Ashtakavarga contribution tables are reused; calculations are implemented independently.
