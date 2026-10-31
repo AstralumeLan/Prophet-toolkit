@@ -1,0 +1,93 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "代号": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "称呼": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "gender": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "time_range": {
+      "type": [
+        "array",
+        "null"
+      ]
+    },
+    "时间精度": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "place": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "geo": {
+      "type": [
+        "null",
+        "object"
+      ],
+      "additionalProperties": true
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lon": {
+      "type": "number"
+    },
+    "tz": {
+      "type": "string"
+    },
+    "candidates": {
+      "type": "array",
+      "items": {}
+    },
+    "shichen_candidates": {
+      "type": "array",
+      "items": {}
+    },
+    "range_dt": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "candidates",
+    "date",
+    "gender",
+    "geo",
+    "lat",
+    "lon",
+    "place",
+    "shichen_candidates",
+    "time",
+    "time_range",
+    "tz",
+    "代号",
+    "时间精度",
+    "称呼"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "person.resolve output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

@@ -35,6 +35,9 @@ def build_parser():
             load_errors[m] = repr(e)
         except Exception as e:  # noqa: BLE001
             load_errors[m] = repr(e)
+    tools = sub.add_parser("tools", help="Discover commands and JSON input schemas")
+    from core.tools import manifest
+    tools.set_defaults(func=lambda a: manifest(ap))
     return ap, load_errors
 
 
@@ -42,6 +45,8 @@ def main(argv=None):
     argv = list(sys.argv[1:] if argv is None else argv)
     pretty = "--pretty" in argv
     argv = [x for x in argv if x != "--pretty"]
+    if argv == ["--describe"]:
+        argv = ["tools"]
     ap, load_errors = build_parser()
     a = ap.parse_args(argv)
     a.pretty = pretty

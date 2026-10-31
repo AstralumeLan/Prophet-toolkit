@@ -1,0 +1,41 @@
+# Prophet
+
+> Offline JSON CLI for traditional divination, astrology, and source retrieval. Explicit rules, warnings, and time uncertainty; fictional examples only.
+
+Prophet is for cultural research and reproducible algorithm comparisons. Runtime is
+offline after dependency setup. Calculations and historical texts do not establish
+predictive validity. Preserve privacy and third-party licences.
+
+## Start here
+
+- [English overview](README.en.md): Installation, engines, and examples.
+- [AI client guide](docs/for-ai.md): Tool manifest, MCP configuration, schemas, and workflow.
+- [Agent instructions](AGENTS.md): Setup, tests, contribution rules, and invariants.
+- [Output schemas](schemas/): Generated JSON Schema contracts per CLI command.
+- [Shared design](docs/SPEC.md): Layering, contracts, uncertainty, and validation.
+- [Inputs and persistence](docs/core.md): Precision, solar time, cache and draw policies.
+
+## Engines
+
+- [Bazi](docs/bazi.md): Pillars, periods, and daily queries.
+- [Ziwei](docs/ziwei.md): Charts, comparisons, and horoscopes.
+- [Liuyao](docs/liuyao.md): Manual, time, and coin methods.
+- [Meihua](docs/meihua.md): Time, numbers, and random methods.
+- [Qimen](docs/qimen.md): Declared chart methods and rules.
+- [Huangli](docs/huangli.md): Day and hour calendar fields.
+- [Western astrology](docs/western.md): Natal and related calculations.
+- [Tarot](docs/tarot.md): RWS card lookup and reusable draws.
+- [Vedic astrology](docs/vedic.md): Lahiri charts, periods, and strength.
+
+## Sources and validation
+
+- [Corpus](docs/corpus.md): Local search, neighbours, provenance, and opt-in restrictions.
+- [Validation](docs/validate.md): Comparison scope and shared dependency caveats.
+- [Third-party notices](THIRD_PARTY_NOTICES.md): Licences and source attribution.
+
+## Optional
+
+- [Full documentation](llms-full.txt): Concatenated public technical docs.
+- [Changelog](CHANGELOG.md): Version history.
+- [Security](SECURITY.md): Supported releases and private reporting.
+- [Conduct](CODE_OF_CONDUCT.md): Community standards.

@@ -1,0 +1,28 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "person": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "results": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "input",
+    "person",
+    "results"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "solartime output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

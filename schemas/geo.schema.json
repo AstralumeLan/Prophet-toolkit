@@ -1,0 +1,36 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "地点": {
+      "type": "string"
+    },
+    "输入": {
+      "type": "string"
+    },
+    "lat": {
+      "type": "number"
+    },
+    "lon": {
+      "type": "number"
+    },
+    "tz": {
+      "type": "string"
+    },
+    "精度": {
+      "type": "string"
+    },
+    "places": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "aliases": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "geo output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

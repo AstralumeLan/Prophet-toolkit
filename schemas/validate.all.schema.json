@@ -1,0 +1,61 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "engine": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "name",
+        "version",
+        "rules"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "rules": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {}
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "results": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "summary": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "agree": {
+      "type": "boolean"
+    },
+    "invariants": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "agree",
+    "engine",
+    "input",
+    "results",
+    "summary",
+    "warnings"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "validate.all output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

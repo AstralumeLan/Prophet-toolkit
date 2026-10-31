@@ -89,3 +89,11 @@ bin/prophet draws list --method tarot-three
 | 参数 | 默认 | 说明 |
 | --- | --- | --- |
 | --method | 未指定 |  |
+
+## AI discovery and MCP
+
+`bin/prophet tools --pretty` returns an argparse-derived JSON manifest of all
+registered commands, input schemas, and output schema paths. `--describe` is an
+alias handled before argument parsing. `bin/prophet-mcp` exposes those commands
+over local stdio MCP with the same rules and draw log policy. See
+[AI client guide](for-ai.md) for configuration, schemas, and privacy boundaries.

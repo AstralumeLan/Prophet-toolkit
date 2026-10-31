@@ -17,6 +17,8 @@ fi
 if command -v uv >/dev/null 2>&1; then
     uv pip install --python .venv/bin/python -r requirements.txt
 else
+    .venv/bin/python -m ensurepip --upgrade
+    .venv/bin/python -m pip install --upgrade pip setuptools wheel
     .venv/bin/python -m pip install -r requirements.txt
 fi
 (cd eastern/ziwei/js && npm ci)

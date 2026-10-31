@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "people": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "people"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "person.list output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

@@ -1,0 +1,64 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "engine": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "name",
+        "version",
+        "rules"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "rules": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {}
+    },
+    "rules_ext": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "person": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "branches": {
+      "type": "array",
+      "items": {}
+    },
+    "invariants": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "branches",
+    "engine",
+    "input",
+    "person",
+    "rules_ext",
+    "warnings"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "vedic.shadbala output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Prophet</title>
+  <desc id="desc">离线术数与占星工具箱 · Offline divination and astrology toolkit</desc>
+  <rect width="1280" height="640" fill="#181818"/>
+  <g fill="none" stroke="#c6b78b" stroke-width="2">
+    <circle cx="1024" cy="320" r="160"/>
+    <circle cx="1024" cy="320" r="112"/>
+    <path d="M1024 144V160 M1024 480V496 M848 320H864 M1184 320H1200 M900 196L912 208 M1136 432L1148 444 M900 444L912 432 M1136 208L1148 196"/>
+    <path d="M960 288H1088 M960 320H1008 M1040 320H1088 M960 352H1088" stroke-width="8"/>
+  </g>
+  <g fill="#f5f1e7" font-family="Manrope, sans-serif">
+    <text x="80" y="144" font-size="18" letter-spacing="4" fill="#c6b78b">OFFLINE · JSON · EXPLICIT RULES</text>
+    <text x="80" y="304" font-size="96" font-weight="600">Prophet</text>
+    <text x="80" y="384" font-size="30">离线术数与占星工具箱</text>
+    <text x="80" y="432" font-size="24" fill="#bcbcbc">Offline divination and astrology toolkit</text>
+    <text x="80" y="560" font-size="18" fill="#bcbcbc">八字 · 紫微 · 易卦 · 奇门 · 星盘 · 塔罗</text>
+  </g>
+</svg>

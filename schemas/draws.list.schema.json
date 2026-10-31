@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "draws": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "draws"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "draws.list output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

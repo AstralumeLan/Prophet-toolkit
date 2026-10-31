@@ -1,0 +1,60 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "代号": {
+      "type": "string"
+    },
+    "称呼": {
+      "type": "string"
+    },
+    "性别": {
+      "type": "string"
+    },
+    "历法": {
+      "type": "string"
+    },
+    "原始当地日期": {
+      "type": "string"
+    },
+    "原始当地时间": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "时间精度": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "出生地": {
+      "type": "string"
+    },
+    "geo_key": {
+      "type": "string"
+    },
+    "时区": {
+      "type": "string"
+    },
+    "备注": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "geo_key",
+    "代号",
+    "出生地",
+    "历法",
+    "原始当地日期",
+    "原始当地时间",
+    "备注",
+    "性别",
+    "时区",
+    "时间精度",
+    "称呼"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "person.show output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}
