@@ -5,6 +5,25 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
+## [0.2.0] — 2026-11-01
+
+### Added
+
+- Original optional Bazi and Ziwei agent skills with exact chart paths, staged
+  analysis, local corpus queries, output templates and evidence critic checklists.
+- Evidence item schema and offline `evidence check` validation with restricted
+  JSON paths, resolved values, system checks and nonzero invalid-result status.
+- Lightweight `cross-check run` for independent Bazi, Ziwei and Western calculations,
+  compact summaries, preserved branches and qualified factual comparisons.
+- Cross-system skill, bilingual usage guidance, output contracts and MCP tools
+  discovered through the existing parser. No new runtime dependency.
+- Regression coverage for paths, invalid evidence, uncertainty, skills and MCP.
+
+### Deferred
+
+- Official MCP Python SDK migration: retain the tested stdio transport for this release.
+
+
 ### Added
 
 - GitHub Actions CI: setup, full offline selftest, tool discovery and MCP smoke test.

@@ -1,4 +1,4 @@
-# Prophet
+# Prophet v0.2.0
 
 > Offline JSON CLI for traditional divination, astrology, and source retrieval. Explicit rules, warnings, and time uncertainty; fictional examples only.
 
@@ -39,3 +39,11 @@ predictive validity. Preserve privacy and third-party licences.
 - [Changelog](CHANGELOG.md): Version history.
 - [Security](SECURITY.md): Supported releases and private reporting.
 - [Conduct](CODE_OF_CONDUCT.md): Community standards.
+
+## Agent Skills, Evidence and Cross-check
+
+- [Workflow and evidence contract](docs/agent-workflows.md): CLI, JSON paths, limits and review.
+- [Bazi skill](skills/bazi/SKILL.md): Staged analysis and evidence critic.
+- [Ziwei skill](skills/ziwei/SKILL.md): Palaces, transformations, timing and critic.
+- [Cross-check skill](skills/cross-check/SKILL.md): Independent interpretations and qualified comparisons.
+- [Evidence item schema](schemas/evidence-item.schema.json): Required claim metadata.

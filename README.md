@@ -10,7 +10,7 @@
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB)
 ![Node 20+](https://img.shields.io/badge/Node-20%2B-339933)
 [![CI](https://img.shields.io/github/actions/workflow/status/AstralumeLan/prophet-toolkit/ci.yml?branch=main&label=CI)](https://github.com/AstralumeLan/prophet-toolkit/actions/workflows/ci.yml)
-![Tests](https://img.shields.io/badge/tests-112%20passing-2ea44f)
+![Tests](https://img.shields.io/badge/tests-124%20passing-2ea44f)
 [![Release](https://img.shields.io/github/v/release/AstralumeLan/prophet-toolkit)](https://github.com/AstralumeLan/prophet-toolkit/releases)
 [![MCP ready](https://img.shields.io/badge/MCP-ready-6978de)](docs/for-ai.md)
 [![llms.txt](https://img.shields.io/badge/llms.txt-available-6978de)](llms.txt)
@@ -173,6 +173,31 @@ MCP 暴露完整 CLI，包括本地记录查询与显式持久化；只连接可
 
 [llms.txt](llms.txt) 是精简文档入口，[llms-full.txt](llms-full.txt) 汇集公开技术文档，[AGENTS.md](AGENTS.md) 规定代理协作、测试和隐私要求。协议、调用示例与建议流程见 [AI 客户端指南](docs/for-ai.md)。
 
+## 🧩 Agent Skills
+
+可选的 [八字](skills/bazi/SKILL.md) 与 [紫微](skills/ziwei/SKILL.md) 技能，把分析拆为盘面核对、分阶段推论、经典检索及 Critic 审核。字段路径来自实际 JSON；旺衰、格局、调候和不同四化层级分别论证，保留异说和时间分支。技能由 AI 客户端按需读取，无需新增依赖或模型服务。
+
+## 🔎 Evidence
+
+每条判断可记录 `claim`、`system`、`json_paths`、`school`、`rule_id`、`corpus_reference`、`confidence` 和 `counter_interpretation`。按 [证据协议](docs/agent-workflows.md) 将原始命盘和证据列表保存到本地文件，再校验：
+
+```bash
+bin/prophet evidence check evidence.json
+```
+
+校验会拒绝不存在的字段和无效路径，并返回实际值。通过仅表示结构及引用有效；解释语义、原文真实性和流派适用条件仍由分析者审核。证据文件可能含个人数据，分享前需检查。
+
+## 🔀 Cross-check
+
+```bash
+bin/prophet cross-check run --person S01
+bin/prophet cross-check run --person S02 --systems bazi,ziwei,western
+```
+
+独立运行至少两个体系，返回精简事实、规则、警告、候选分支及 `agreements/conflicts/unique`。默认统一东方钟表时，四柱值集合可作历法比较；命宫、上升等专有字段保留各自含义。`--include-charts` 可附原盘供审核。解释性主题由 [交叉分析技能](skills/cross-check/SKILL.md) 另行对照，不将历法一致视为预测共识。默认单代理；深度多代理仅为可选文档流程。
+
+公共版 MCP 自动提供 `evidence_check` 与 `cross_check_run`；沿用已测试的 stdio 传输，官方 SDK 迁移留待后续。详见 [完整工作流](docs/agent-workflows.md)。
+
 <a id="architecture"></a>
 
 ## 🏗️ 架构
@@ -202,7 +227,7 @@ flowchart LR
 
 ## 🎯 准确性与校验
 
-本次离线自检报告 **112/112 passed**（静态测试徽章）；Chiron 星历已备齐，数值与衍生检查均运行，缺失数据降级路径也通过。
+本次离线自检报告 **124/124 passed**（静态测试徽章）；Chiron 星历已备齐，数值与衍生检查均运行，缺失数据降级路径也通过。
 
 测试检验计算结果和已声明规则，不检验预测能力。下表概括 [tests](tests/) 中的断言，不代表对整套体系的准确性保证。
 

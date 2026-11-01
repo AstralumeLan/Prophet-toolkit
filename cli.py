@@ -6,10 +6,10 @@ import json
 import sys
 import traceback
 
-VERSION = "0.1.0"
+VERSION = "0.2.0"
 # (module path) — each exposes register(subparsers)
 MODULES = [
-    "core.inputs", "core.geo", "core.solartime", "core.draws", "core.cache",
+    "core.evidence", "core.cross_check", "core.inputs", "core.geo", "core.solartime", "core.draws", "core.cache",
     "eastern.bazi", "eastern.ziwei", "eastern.liuyao", "eastern.meihua", "eastern.qimen", "eastern.huangli",
     "western.astro", "western.tarot",
     "vedic.jyotish",

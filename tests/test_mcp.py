@@ -41,3 +41,25 @@ def test_mcp_protocol_errors():
     assert result.returncode == 0
     replies = [json.loads(line) for line in result.stdout.splitlines()]
     assert [r['error']['code'] for r in replies] == [-32700, -32600, -32602]
+
+
+def test_mcp_evidence_and_cross_check():
+    import tempfile
+    from prophet_mcp.server import dispatch
+    from tests.test_agent_workflows import fixture
+    names = {t['name'] for t in dispatch('tools/list', {})['tools']}
+    assert {'evidence_check', 'cross_check_run'} <= names
+    with tempfile.TemporaryDirectory() as directory:
+        file = Path(directory) / 'evidence.json'
+        for valid in (True, False):
+            bundle = fixture()
+            if not valid: bundle['evidence'][0]['json_paths'] = ['$.missing']
+            file.write_text(json.dumps(bundle), encoding='utf-8')
+            reply = dispatch('tools/call', {'name': 'evidence_check', 'arguments': {'file': str(file)}})
+            assert reply['isError'] == (not valid)
+            assert json.loads(reply['content'][0]['text'])['valid'] == valid
+    reply = dispatch('tools/call', {'name': 'cross_check_run', 'arguments': {'person': 'S01'}})
+    assert not reply['isError'], reply
+    result = json.loads(reply['content'][0]['text'])
+    assert set(result['summaries']) == {'bazi', 'ziwei'}
+    assert 'charts' not in result

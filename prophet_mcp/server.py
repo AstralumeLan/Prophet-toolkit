@@ -15,7 +15,7 @@ class InvalidRequest(ValueError):
 def dispatch(method, params):
     if method == 'initialize':
         return {'protocolVersion': '2025-06-18', 'capabilities': {'tools': {}},
-                'serverInfo': {'name': 'prophet', 'version': '0.1.0'}}
+                'serverInfo': {'name': 'prophet', 'version': '0.2.0'}}
     if method == 'ping': return {}
     entries = manifest()['tools']
     mapping = {t['name'].replace('.', '_').replace('-', '_'): t for t in entries}

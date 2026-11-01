@@ -71,3 +71,15 @@ create fixtures. Use temporary directories for all test persistence.
 Preserve third-party LICENSE/NOTICE files and attribution. Never bundle vendor
 checkouts, generated corpora, node_modules, or Swiss Ephemeris data. Restricted course
 material is opt-in and retains CC BY-NC-SA 4.0 restrictions; default builds exclude it.
+
+## Optional agent layer (v0.2.0)
+
+Read `docs/agent-workflows.md` and the relevant `skills/*/SKILL.md` before changing
+evidence or analysis workflows. Skills remain optional original guidance outside
+deterministic chart engines. `core/evidence.py` checks shape and restricted paths,
+not claim semantics or source authenticity. Keep its schema and rejection behavior
+aligned. `core/cross_check.py` runs engines independently and compares candidate
+fact sets; never describe these as predictive consensus or pair unlike branches.
+MCP discovers both commands automatically. Retain the current stdio transport;
+SDK migration is future work. Add tests for paths, invalid evidence, interval
+branches, skill references and MCP calls. New examples use fictional S01–S04 only.

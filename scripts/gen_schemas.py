@@ -66,12 +66,20 @@ def generate():
         build.build(False)
         parser, errors = build_parser()
         if errors: raise RuntimeError(errors)
+        evidence_file = tmp / 'evidence.json'
+        chart_args = parser.parse_args(['bazi', 'chart', '--person', 'S01'])
+        evidence_file.write_text(json.dumps({'chart': chart_args.func(chart_args), 'evidence': [{
+            'claim': 'Fictional day-master field exists', 'system': 'bazi',
+            'json_paths': ['$.candidates[0].day_master'], 'school': 'chart fact',
+            'rule_id': 'bazi.day-master.fact', 'corpus_reference': {'query': '日主'},
+            'confidence': 'high', 'counter_interpretation': 'Existence does not establish strength'
+        }]}, ensure_ascii=False, default=str), encoding='utf-8')
         for path, _, actions, _ in commands(parser):
             name = '.'.join(path)
             samples = []
             for person in ('S01', 'S02', None):
                 argv = list(path)
-                values = {'person': person, 'year': 2026, 'at': '2026-10-31', 'other': 'S01',
+                values = {'file': str(evidence_file), 'person': person, 'year': 2026, 'at': '2026-10-31', 'other': 'S01',
                           'code': person or 'S01', 'A': 3, 'B': 5, 'lines': '777777', 'question': 'Fictional schema demonstration',
                           'seed': 42, 'no_record': True, 'name': 'The Fool', 'query': '用神',
                           'passage_id': 'ziping:c001:p0001', 'pattern': 'test_bazi_daily'}

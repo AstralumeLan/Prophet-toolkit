@@ -4,7 +4,8 @@
 
 | Version | Security fixes |
 | --- | --- |
-| 0.1.x | Supported |
+| 0.2.x | Supported |
+| 0.1.x | Upgrade to 0.2.x |
 | Earlier releases | Unsupported |
 
 ## Reporting a vulnerability

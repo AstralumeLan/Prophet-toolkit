@@ -103,3 +103,12 @@ legal, financial, or other professional advice. Keep real records only in ignore
 
 See [shared inputs](core.md), [design contract](SPEC.md), [corpus](corpus.md),
 [validation](validate.md), and [third-party notices](../THIRD_PARTY_NOTICES.md).
+
+## Optional analysis layer (v0.2.0)
+
+See [Agent Skills, Evidence and Cross-check](agent-workflows.md) for skill entry
+points, evidence item fields, path syntax and comparison scope. `evidence_check`
+accepts a server-local `file`; `cross_check_run` accepts shared birth inputs plus
+`systems`, `time_standard` and `include_charts`. Both use ordinary CLI behavior.
+Critic review must still check semantics and retrieved source context. No model
+service is required, and the existing MCP transport remains unchanged.

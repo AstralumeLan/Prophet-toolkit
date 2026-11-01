@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "additionalProperties": true,
+  "properties": {
+    "engine": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "name",
+        "version",
+        "rules"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "rules": {
+          "type": "object",
+          "additionalProperties": true
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": {}
+    },
+    "input": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "summaries": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "comparison": {
+      "type": "object",
+      "additionalProperties": true
+    }
+  },
+  "required": [
+    "comparison",
+    "engine",
+    "input",
+    "summaries",
+    "warnings"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "cross-check.run output",
+  "$comment": "Generated from fictional S01/S02, explicit fictional inputs or documented public inputs by scripts/gen_schemas.py; values are not stored. Nested structures remain extensible."
+}

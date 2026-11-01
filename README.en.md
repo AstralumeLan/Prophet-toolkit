@@ -10,7 +10,7 @@
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB)
 ![Node 20+](https://img.shields.io/badge/Node-20%2B-339933)
 [![CI](https://img.shields.io/github/actions/workflow/status/AstralumeLan/prophet-toolkit/ci.yml?branch=main&label=CI)](https://github.com/AstralumeLan/prophet-toolkit/actions/workflows/ci.yml)
-![Tests](https://img.shields.io/badge/tests-112%20passing-2ea44f)
+![Tests](https://img.shields.io/badge/tests-124%20passing-2ea44f)
 [![Release](https://img.shields.io/github/v/release/AstralumeLan/prophet-toolkit)](https://github.com/AstralumeLan/prophet-toolkit/releases)
 [![MCP ready](https://img.shields.io/badge/MCP-ready-6978de)](docs/for-ai.md)
 [![llms.txt](https://img.shields.io/badge/llms.txt-available-6978de)](llms.txt)
@@ -173,6 +173,31 @@ MCP exposes the full CLI, including local record queries and explicit persistenc
 
 [llms.txt](llms.txt) indexes the docs, [llms-full.txt](llms-full.txt) combines public technical documentation, and [AGENTS.md](AGENTS.md) defines agent contribution, testing and privacy rules. See the [AI client guide](docs/for-ai.md) for protocol details, calls and recommended workflows.
 
+## 🧩 Agent Skills
+
+Optional [Bazi](skills/bazi/SKILL.md) and [Ziwei](skills/ziwei/SKILL.md) skills guide chart inspection, staged interpretation, corpus retrieval and a final Critic pass. References use actual JSON paths, distinguish schools and timing layers, and preserve counter-interpretations and uncertain-time branches. AI clients load these files as needed; no model service or additional dependency is required.
+
+## 🔎 Evidence
+
+Each claim can carry `system`, `json_paths`, `school`, `rule_id`, `corpus_reference`, `confidence` and `counter_interpretation`. Save the raw chart and evidence list locally using the [evidence contract](docs/agent-workflows.md), then run:
+
+```bash
+bin/prophet evidence check evidence.json
+```
+
+The validator rejects missing fields and unsupported paths, returning the resolved values. Passing confirms structure and reference existence; reviewers still check meaning, source authenticity and rule applicability. Evidence files can contain personal data: review them before sharing.
+
+## 🔀 Cross-check
+
+```bash
+bin/prophet cross-check run --person S01
+bin/prophet cross-check run --person S02 --systems bazi,ziwei,western
+```
+
+Run at least two systems independently and receive compact facts, rules, warnings, candidate branches and `agreements/conflicts/unique`. Eastern calculations share clock time by default. Matching pillar value sets describe calendar agreement; system-specific facts retain their own meanings. Add `--include-charts` for raw-chart review. The [cross-check skill](skills/cross-check/SKILL.md) separately compares interpreted themes without treating calendar agreement as predictive consensus. Single-agent use is the default; deeper multi-agent review is documented as optional.
+
+MCP automatically exposes `evidence_check` and `cross_check_run` through the existing tested stdio transport. Official SDK migration is deferred. See the [full workflow guide](docs/agent-workflows.md).
+
 <a id="architecture"></a>
 
 ## 🏗️ Architecture
@@ -202,7 +227,7 @@ flowchart LR
 
 ## 🎯 Accuracy and validation
 
-This offline run reported **112/112 passed** (the static tests badge). With Chiron ephemeris data present, numeric and derived checks ran; missing-data fallback checks also passed.
+This offline run reported **124/124 passed** (the static tests badge). With Chiron ephemeris data present, numeric and derived checks ran; missing-data fallback checks also passed.
 
 Tests check calculations and documented rules, not predictive power. The table summarizes assertions in [tests](tests/) rather than general accuracy guarantees.
 
