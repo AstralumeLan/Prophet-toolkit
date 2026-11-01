@@ -5,7 +5,9 @@ The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [Unreleased]
 
-_Nothing yet._
+### Added
+
+- GitHub Actions CI: setup, full offline selftest, tool discovery and MCP smoke test.
 
 ## [0.1.0] — 2026-10-31
 

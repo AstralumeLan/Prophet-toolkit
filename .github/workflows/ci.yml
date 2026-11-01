@@ -1,0 +1,28 @@
+name: CI
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+          cache-dependency-path: eastern/ziwei/js/package-lock.json
+      - name: Install and run full selftest
+        run: bash scripts/setup.sh
+      - name: Discover tools
+        run: bin/prophet tools --pretty >/dev/null
+      - name: MCP smoke test
+        run: bin/prophet selftest -k test_mcp

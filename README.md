@@ -9,6 +9,7 @@
 [![MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 ![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB)
 ![Node 20+](https://img.shields.io/badge/Node-20%2B-339933)
+[![CI](https://img.shields.io/github/actions/workflow/status/AstralumeLan/prophet-toolkit/ci.yml?branch=main&label=CI)](https://github.com/AstralumeLan/prophet-toolkit/actions/workflows/ci.yml)
 ![Tests](https://img.shields.io/badge/tests-112%20passing-2ea44f)
 [![Release](https://img.shields.io/github/v/release/AstralumeLan/prophet-toolkit)](https://github.com/AstralumeLan/prophet-toolkit/releases)
 [![MCP ready](https://img.shields.io/badge/MCP-ready-6978de)](docs/for-ai.md)
