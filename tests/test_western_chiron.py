@@ -48,6 +48,17 @@ def test_western_chiron_missing_and_outside_range():
         assert 'Chiron' in astro.chart(2451545., 0, 0)['planets']
 
 
+def _close(a, b, tol=1e-6):
+    """Structural equality with float tolerance (degrees / degrees per day)."""
+    if isinstance(a, float) or isinstance(b, float):
+        return isinstance(a, (int, float)) and isinstance(b, (int, float)) and abs(a - b) <= tol
+    if isinstance(a, dict) and isinstance(b, dict):
+        return a.keys() == b.keys() and all(_close(a[k], b[k], tol) for k in a)
+    if isinstance(a, list) and isinstance(b, list):
+        return len(a) == len(b) and all(_close(x, y, tol) for x, y in zip(a, b))
+    return a == b
+
+
 def test_western_chiron_cached_planets_unchanged():
     # Frozen numeric S01 snapshot computed once with the engine; Sun/Pisces and
     # 12 ordered houses sanity-checked. Compatibility does not require local cache.
@@ -55,10 +66,12 @@ def test_western_chiron_cached_planets_unchanged():
     old = json.loads((Path(__file__).parent/'fixtures/western_s01.json').read_text())
     new = cli('natal', '--person', 'S01')['branches'][0]['natal']
     check_schema(new, 'western')
+    # Floats are compared with a tight tolerance: Swiss Ephemeris builds differ
+    # in the last bits across compilers/libm (e.g. local vs. CI runners).
     for name, p in old['planets'].items():
-        assert new['planets'][name] == p
-    assert new['houses'] == old['houses'] and new['angles'] == old['angles']
-    assert [a for a in new['aspects'] if 'Chiron' not in (a['a'],a['b'])] == old['aspects']
+        assert _close(new['planets'][name], p), name
+    assert _close(new['houses'], old['houses']) and _close(new['angles'], old['angles'])
+    assert _close([a for a in new['aspects'] if 'Chiron' not in (a['a'],a['b'])], old['aspects'])
     assert new['planets']['Sun']['sign'] == 'Pisces'
     assert len(new['houses']) == 12
 
