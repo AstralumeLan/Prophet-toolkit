@@ -387,3 +387,7 @@ B. V. Raman’s *Graha and Bhava Balas* supplies numerical reference examples; n
 ## ⚠️ Disclaimer
 
 For entertainment and cultural study only. No deterministic claims about personal fate, and no medical, legal, investment or other professional advice.
+
+---
+
+> 🤖 Made with AI.
